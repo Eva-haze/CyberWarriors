@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CyberWarriors </title>
+  <link rel="stylesheet" href="отдельно/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+</head>
+<body>
+
+<!-- Шапка -->
+<header>
+  <button id="themeToggle" class="theme-toggle">🌓</button>
+  <nav class="navbar">
+    <div class="logoSpin">
+      <img src="отдельно/logo.png" alt="Логотип" class="logo" id="logoSpin">
+    </div>
+    <div class="nav-links">
+      <a href="#index" class="active">Главная</a>
+       <a href="index.html#about" id="about-link">О нас</a>
+      <a href="register.html">Регистрация</a>
+    </div>
+  </nav>
+</header>
+<div id="shadow"></div>
+<div class="prikol">
+
+  <!-- Главная -->
+  <section id="index" class="banner">
+    <h1>Ты не пройдешь!</h1>
+    <p>Вооружайтесь, кибервоины! Квалификации на соревнования CTF стартуют в эти выходные с 10 по 11 июля с 12:00 до 12:00. Только самые острые умы дойдут до финального поединка 17 июля!</p>
+    <a href="register.html" class="btn">Попробовать</a>
+  </section>
+
+  <!--Сервис -->
+  <section class="services">
+    <h2>Наши услуги</h2>
+    <div class="card">Подготовка к CTF</div>
+    <div class="card">Командные тренировки</div>
+    <div class="card">Консультации</div>
+    <p class="note">Клуб CyberWarriors предоставляет практико-ориентированную платформу для обучения, где студенты и начинающие специалисты в области кибербезопасности развивают профессиональные навыки через участие в CTF-турнирах.</p>
+  </section>
+
+  <!-- Преимущества -->
+  <section class="benefits">
+    <h2>Преимущества</h2>
+    <ul>
+      <li><strong>Практика вместо теории:</strong> Участники учатся через реальные задачи, моделирующие атаки и защиту.</li>
+      <li><strong>Работа в команде:</strong> Вы развиваете софт-скиллы, учитесь работать в условиях давления и распределения ролей.</li>
+      <li><strong>Развитие креативного и критического мышления:</strong> CTF требует нестандартных подходов, анализа и логики.</li>
+    </ul>
+  </section>
+
+  <!-- О нас -->
+  <section id="about" class="about">
+    <section id="mission" class="line">
+    <h2>Наша миссия</h2>
+    <p>Миссия клуба CyberWarriors — развивать у студентов и начинающих специалистов реальные навыки в области кибербезопасности через участие в CTF-соревнованиях (Capture the Flag).</p>
+    <p>Мы стремимся создать обучающую среду, где каждый может расти, учиться защищать цифровое пространство и применять полученные знания в условиях, приближённых к реальным киберугрозам.</p>
+    </section>
+    <h2>Наша команда</h2>
+    <div class="team-container">
+       <div id="tsparticles"></div>
+      <div class="team-member">
+        <img src="отдельно/man.png" alt="Валерий Валерьевич">
+        <h4>Валерий Валерьевич</h4>
+        <p>Технический руководитель</p>
+      </div>
+      <div class="team-member">
+        <img src="отдельно/man1.png" alt="Степан Викторович">
+        <h4>Степан Викторович</h4>
+        <p>Эксперт по взлому Web</p>
+      </div>
+      <div class="team-member">
+        <img src="отдельно/woman.png" alt="Ольга Антоновна">
+        <h4>Ольга Антоновна</h4>
+        <p>Аналитик угроз и OSINT</p>
+      </div>
+    </div>
+    <h2>Достижения</h2>
+    <ul>
+      <li>1 место — CTF Kazakhstan 2024</li>
+      <li>Лучшее решение в номинации "Reverse Engineering" — UniCTF Online 2021</li>
+      <li>Участие в международной олимпиаде по кибербезопасности GlobalCyberCamp 2022</li>
+      <li>Победители в категории "Forensics" — Student CyberCup Karaganda 2023</li>
+    </ul>
+  </section>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+<button id="backToTop" class="back-to-top">↑</button>
+
+  <!-- Подвал -->
+<footer class="footer">
+  <div class="footer-content">
+    <p>© 2025 CyberWarriors. Все права защищены.</p>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
